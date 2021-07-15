@@ -1,0 +1,292 @@
+#p3 {
+    vertical-align: super;
+    font-size: 29px;
+}
+
+#p4 {
+    vertical-align: 40px;
+    font-size: 40px;
+    margin-left: 350px;
+    color: red;
+}
+
+.h2 {
+    margin-top: 100px;
+    color: rgb(94, 94, 143);
+    font-size: 80px;
+
+}
+
+.number {
+    flex-direction: row;
+    display: inline-block;
+    margin: 10px 20px;
+    margin-bottom: 100px;
+
+}
+
+.number .text-num {
+    color: rgb(155, 151, 151);
+    line-height: 1.5em;
+    font-size: 23px;
+
+}
+
+
+.p {
+    font-size: 25px;
+}
+
+#img3 {
+    width: 700px;
+
+    height: 600px;
+
+}
+
+
+.links ul {
+
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    list-style: none;
+    box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
+    border: 1px solid #e7e8ff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+
+}
+
+.links ul li {
+
+    color: #1351cc;
+    font-size: 20px;
+    padding: 20px 30px;
+    font-weight: bold;
+    border-bottom: 1px solid #e7e8ff;
+}
+
+#p11 {
+    color: rgb(108, 201, 15);
+    font-weight: 100px;
+    font-size: 60px;
+}
+
+
+#w1 {
+    font-size: 20px;
+    font-style: bold;
+    margin-bottom: 30px;
+}
+
+#w2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+#w3 {
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
+#w4 {
+    color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+
+}
+
+
+.button1 {
+    text-align: center;
+    font-size: 25px;
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.button2 {
+    font-size: 50px;
+    color: rgb(36, 128, 77);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.1em;
+    font-style: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.button3 {
+    text-align: center;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.37);
+    margin-bottom: 50px;
+}
+
+.c2 {
+    display: inline-block;
+    width: 400px;
+    margin-left: 110px;
+}
+
+
+.c1 {
+    display: inline-block;
+    width: 400px;
+    margin: 20px;
+
+}
+
+.button4 {
+    text-align: center;
+    margin-left: 380px;
+    margin-top: 100px;
+    border-radius: 1000px;
+}
+
+.c3 {
+    font-size: 25px;
+    color: rgb(50, 50, 156);
+}
+
+.c4 {
+    font-size: 15px;
+    font-style: bold;
+}
+
+
+.i1 {
+    border-radius: 2000px;
+
+}
+
+.i2 {
+    border-radius: 2000px;
+
+}
+
+
+
+
+
+
+
+@media(max-width : 520px) {
+
+
+    #img3 {
+        width: 490px;
+        height: 300px;
+    }
+
+    .p {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #p4 {
+        vertical-align: px;
+        font-size: 40px;
+        margin-left: 230px;
+        margin-bottom: 0px;
+        color: red;
+    }
+
+    .h2 {
+        text-align: center;
+    }
+
+    #bt1 {
+        width: 30%;
+        float: left;
+        margin: 0px;
+    }
+
+    #bt2 {
+        width: 30%;
+        float: right;
+        margin: 0px;
+    }
+
+    .number .text-num {
+        color: rgb(155, 151, 151);
+        line-height: 1.5em;
+        font-size: 20px;
+    }
+
+    .number {
+        flex-direction: row;
+        display: inline-block;
+        margin: 2%;
+        text-align: center;
+    }
+
+    #a1 {
+        margin: 0px;
+    }
+
+    .button2 {
+        font-size: 28px;
+    }
+
+    .c2 {
+        margin-left: 10px;
+        width: 320px;
+
+
+    }
+
+    .c1 {
+        width: 320px;
+
+
+    }
+
+    .button4 {
+        text-align: center;
+        float: right;
+        margin-top: 10px;
+        border-radius: 1000px;
+        width: 300px;
+
+    }
+
+    .btn {
+        margin: 10px;
+    }
+
+    .img10 {
+        text-align: center;
+        margin-left: 50px;
+        width: 200px;
+        height: 150px;
+    }
+
+    .img {
+        width: 150px;
+        display: inline-block;
+    }
+
+    .img11 {
+        display: none;
+    }
+
+    .img12 {
+        display: none;
+        color: rgb(66, 71, 73);
+    }
+
+    .card3 {
+        width: 320px;
+    }
+
+    .card4 {
+        width: 300px;
+        margin-left: 3px;
+    }
+
+}
